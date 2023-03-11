@@ -8,10 +8,6 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-::selection {
-  background-color: var(--main-color);
-  color: var(--secund-color);
-}
 html {
   scroll-behavior: smooth;
 }
