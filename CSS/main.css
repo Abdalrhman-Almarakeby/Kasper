@@ -1105,7 +1105,7 @@ header nav .form i {
 
 /* End Contact */
 /* Start Footer */
-.footer {
+footer {
   padding-top: calc(var(--section-padding) / 2);
   padding-bottom: calc(var(--section-padding) / 2);
   background-image: url("../Images/subscribe.webp");
@@ -1115,7 +1115,7 @@ header nav .form i {
   text-align: center;
 }
 
-.footer::before {
+footer::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1125,15 +1125,15 @@ header nav .form i {
   background-color: rgb(0 0 0 / 70%);
 }
 
-.footer .container {
+footer .container {
   position: relative;
 }
 
-.footer img {
+footer img {
   margin-bottom: 20px;
 }
 
-.footer p:not(.copyright) {
+footer p:not(.copyright) {
   text-transform: uppercase;
   padding: 20px;
   border-bottom: 1px solid var(--secund-clr);
@@ -1142,29 +1142,29 @@ header nav .form i {
   margin: 20px auto;
 }
 
-.footer .social-icons i {
+footer .social-icons i {
   padding: 10px 15px;
   color: var(--secund-clr);
   transition: var(--main-duration);
   font-size: 20px;
 }
-.footer .social-icons i.facebook:hover {
+footer .social-icons i.facebook:hover {
   color: #1874f3;
 }
-.footer .social-icons i.twitter:hover {
+footer .social-icons i.twitter:hover {
   color: #1da1f2;
 }
-.footer .social-icons i.youtube:hover {
+footer .social-icons i.youtube:hover {
   color: #f00;
 }
-.footer .social-icons i.linkedin:hover {
+footer .social-icons i.linkedin:hover {
   color: #0073b2;
 }
-.footer .copyright {
+footer .copyright {
   margin-top: 60px;
 }
 
-.footer .copyright a {
+footer .copyright a {
   font-size: 18px;
   font-weight: bold;
   color: var(--main-clr);
