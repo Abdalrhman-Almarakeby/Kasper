@@ -803,7 +803,7 @@ header nav .form i {
 .quote {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url("../images/quote.webp");
+  background-image: url("../Images/quote.webp");
   background-size: cover;
   position: relative;
   text-align: center;
@@ -932,7 +932,7 @@ header nav .form i {
 .subscribe {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url("../images/subscribe.webp");
+  background-image: url("../Images/subscribe.webp");
   background-size: cover;
   position: relative;
   color: var(--secund-clr);
@@ -1108,7 +1108,7 @@ header nav .form i {
 .footer {
   padding-top: calc(var(--section-padding) / 2);
   padding-bottom: calc(var(--section-padding) / 2);
-  background-image: url("../images/subscribe.webp");
+  background-image: url("../Images/subscribe.webp");
   background-size: cover;
   position: relative;
   color: var(--secund-clr);
